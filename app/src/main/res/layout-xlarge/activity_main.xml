@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.grgiral.holamundo.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="780dp"
+        android:layout_height="1118dp"
+        android:background="@drawable/marciano"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="152dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@android:color/transparent"
+        android:foreground="@android:color/transparent"
+        android:text="@string/boton"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="338dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="439dp"
+        android:layout_height="109dp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/titulo_app"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HalloWelt</string>
+    <string name="titulo_app">WILLKOMMEN</string>
+    <string name="texto_app">der Text der Bewerbung</string>
+    <string name="boton">BETRETEN</string>
+</resources>
